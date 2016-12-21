@@ -1,0 +1,192 @@
+
+section#subnav {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    color: #333333;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 48px;
+
+    &.fixed {
+        position: fixed;
+        top: 0;
+    }
+
+    &.fixed,
+    &.blur {
+
+        //background-color: rgba($gray5, 0.99);
+
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba($white, 0.7);
+
+        .container {
+            background: none;
+
+            .block {
+                border-bottom: none;
+            }
+        }
+
+        #toggle {
+            background-image: url('images/arrow_down_blk.png');
+
+            &.open {
+                background-image: url('images/arrow_up_blk.png');
+            }
+        }
+
+    }
+
+    .container {
+        max-width: 980px;
+        position: relative;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+        background: -webkit-linear-gradient(rgba($black, 0), rgba($black, 0.1));
+        background: linear-gradient(rgba($black, 0), rgba($black, 0.1));
+
+        div.block {
+            margin: 17px 0 3px;
+        }
+
+        ul.menu {
+
+            & > li {
+                display: block;
+
+                & > a {
+                    font-family: $futura-bold;
+                    display: inline-block;
+                    font-size: 1.6em;
+                    text-decoration: none;
+                }
+
+                & > ul {
+                    display: inline-block;
+                    float: right;
+                    vertical-align: top;
+
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                        a {
+                            padding: 5px;
+                            text-decoration: none;
+                            font-size: 1.1em;
+                        }
+
+                        ul {
+                            display: none;
+                        }
+
+                        &:last-of-type {
+                            padding-right: 0;
+
+                            a {
+                                padding-right: 0;
+                            }
+                        }
+
+                        &.current_page_item {
+                            a {
+                                font-family: $futura-demi;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.dark {
+
+        a {
+            color: $white;
+        }
+
+        .container .block {
+            border-bottom: 1px solid rgba($white, 0.8);
+
+        }
+
+        &.fixed,
+        &.blur  {
+            border-bottom: 1px solid rgba($gray1, 0.6);
+
+            h1 {
+                color: $black;
+            }
+
+            a {
+                color: $black;
+            }
+
+            .container .block {
+                border-bottom: none;
+
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        #toggle {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-image: url('images/arrow_down.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 25px;
+            top: 0px;
+
+            &.open {
+                background-image: url('images/arrow_up.png');
+            }
+        }
+
+        .container {
+
+            ul.menu {
+
+                &.show {
+                    & > li {
+                        ul {
+                            display: block;
+                        }
+                    }
+                }
+
+                & > li {
+
+                    ul {
+                        display: none;
+                        float: none;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+
+        #toggle {
+            right: 10px;
+        }
+
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+}

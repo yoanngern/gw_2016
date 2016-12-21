@@ -1,0 +1,16 @@
+# Elementor Pro - by Elementor.com
+
+#### 2016-12-13 v1.0.3
+* Fix! - Added escape placeholder for HTML Entities in form widget
+* Fix! - Countdown widget RTL bug
+* Fix! - Remove redundant #elementor selector for control style
+* Fix! - Added prefixing with ‘0’ for one digit number in Countdown widget
+
+#### 2016-12-12 v1.0.2
+* Fix! - Page layout collapses when inserting reCAPTCHA field in Form
+
+#### 2016-12-12 v1.0.1
+* Fix! - WordPress widgets disappear from Editor when Elementor Pro active
+
+#### 2016-12-12 v1.0.0
+* Initial release

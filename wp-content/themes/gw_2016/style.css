@@ -1,0 +1,355 @@
+/*
+Theme Name: Gospel Wave 2016
+Theme URI: http://gospel-wave.org
+Author: Yoann Gern
+Author URI: http://yoanngern.ch
+Description: Template for Gospel Wave 2016
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: gw_2016
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* RESET */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  letter-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption {
+  font-weight: normal;
+  font-style: normal; }
+
+fieldset, iframe {
+  border: none; }
+
+caption, th {
+  text-align: left; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption {
+  display: block; }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Bk';
+  src: url("fonts/32AA10_0_0.eot");
+  src: url("fonts/32AA10_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_0_0.woff2") format("woff2"), url("fonts/32AA10_0_0.woff") format("woff"), url("fonts/32AA10_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-BkIta';
+  src: url("fonts/32AA10_1_0.eot");
+  src: url("fonts/32AA10_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_1_0.woff2") format("woff2"), url("fonts/32AA10_1_0.woff") format("woff"), url("fonts/32AA10_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-LtIta';
+  src: url("fonts/32AA10_2_0.eot");
+  src: url("fonts/32AA10_2_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_2_0.woff2") format("woff2"), url("fonts/32AA10_2_0.woff") format("woff"), url("fonts/32AA10_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Bd';
+  src: url("fonts/32AA10_3_0.eot");
+  src: url("fonts/32AA10_3_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_3_0.woff2") format("woff2"), url("fonts/32AA10_3_0.woff") format("woff"), url("fonts/32AA10_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-Lt';
+  src: url("fonts/32AA10_4_0.eot");
+  src: url("fonts/32AA10_4_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_4_0.woff2") format("woff2"), url("fonts/32AA10_4_0.woff") format("woff"), url("fonts/32AA10_4_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'ITCGaramondStd-BdIta';
+  src: url("fonts/32AA10_5_0.eot");
+  src: url("fonts/32AA10_5_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_5_0.woff2") format("woff2"), url("fonts/32AA10_5_0.woff") format("woff"), url("fonts/32AA10_5_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-Regular';
+  src: url("fonts/32AA10_6_0.eot");
+  src: url("fonts/32AA10_6_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_6_0.woff2") format("woff2"), url("fonts/32AA10_6_0.woff") format("woff"), url("fonts/32AA10_6_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-LightItalic';
+  src: url("fonts/32AA10_7_0.eot");
+  src: url("fonts/32AA10_7_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_7_0.woff2") format("woff2"), url("fonts/32AA10_7_0.woff") format("woff"), url("fonts/32AA10_7_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-Light';
+  src: url("fonts/32AA10_8_0.eot");
+  src: url("fonts/32AA10_8_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_8_0.woff2") format("woff2"), url("fonts/32AA10_8_0.woff") format("woff"), url("fonts/32AA10_8_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-Italic';
+  src: url("fonts/32AA10_9_0.eot");
+  src: url("fonts/32AA10_9_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_9_0.woff2") format("woff2"), url("fonts/32AA10_9_0.woff") format("woff"), url("fonts/32AA10_9_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-BoldItalic';
+  src: url("fonts/32AA10_A_0.eot");
+  src: url("fonts/32AA10_A_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_A_0.woff2") format("woff2"), url("fonts/32AA10_A_0.woff") format("woff"), url("fonts/32AA10_A_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-BlackItalic';
+  src: url("fonts/32AA10_B_0.eot");
+  src: url("fonts/32AA10_B_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_B_0.woff2") format("woff2"), url("fonts/32AA10_B_0.woff") format("woff"), url("fonts/32AA10_B_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-Bold';
+  src: url("fonts/32AA10_C_0.eot");
+  src: url("fonts/32AA10_C_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_C_0.woff2") format("woff2"), url("fonts/32AA10_C_0.woff") format("woff"), url("fonts/32AA10_C_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Abrade-Black';
+  src: url("fonts/32AA10_D_0.eot");
+  src: url("fonts/32AA10_D_0.eot?#iefix") format("embedded-opentype"), url("fonts/32AA10_D_0.woff2") format("woff2"), url("fonts/32AA10_D_0.woff") format("woff"), url("fonts/32AA10_D_0.ttf") format("truetype"); }
+
+body > header {
+  width: 100%;
+  z-index: 1000;
+  color: #3E3E3E;
+  font-family: "Abrade-Light", "Abrade-Regular", times, serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #FFFFFF; }
+  body > header div {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 0 20px; }
+    body > header div > ul {
+      display: inline-block;
+      width: 100%;
+      text-align: right; }
+      body > header div > ul li {
+        display: inline-block;
+        vertical-align: top;
+        letter-spacing: 0.2em;
+        margin: 0 20px;
+        padding-top: 7px; }
+        body > header div > ul li:first-of-type {
+          padding-left: 0;
+          margin-right: 10px;
+          float: left;
+          padding-top: 0px;
+          margin-left: 0; }
+          body > header div > ul li:first-of-type a {
+            width: 160px;
+            height: 61px;
+            top: 0;
+            display: inline-block;
+            background-image: url("images/logo_gw.png");
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            text-indent: 9999px;
+            overflow: hidden;
+            float: none;
+            white-space: nowrap;
+            padding: 0;
+            margin-bottom: 0; }
+            body > header div > ul li:first-of-type a:hover {
+              background-color: transparent;
+              opacity: 0.7; }
+            body > header div > ul li:first-of-type a:active {
+              background-color: transparent; }
+        body > header div > ul li:last-of-type {
+          padding-right: 0;
+          margin-right: 0; }
+          body > header div > ul li:last-of-type a {
+            padding-right: 0; }
+        body > header div > ul li.current-menu-item a, body > header div > ul li.current-page-ancestor a, body > header div > ul li.current-menu-ancestor a {
+          color: #587FB2; }
+        body > header div > ul li ul {
+          display: none; }
+        body > header div > ul li a {
+          color: #36557E;
+          text-decoration: none;
+          font-size: 1.25em;
+          display: block;
+          height: 100%;
+          padding: 7px 15px 0;
+          line-height: 36px;
+          margin-bottom: 10px; }
+          body > header div > ul li a:hover {
+            color: #587FB2; }
+        body > header div > ul li#iahm a {
+          padding-left: 7px;
+          margin-left: 3px; }
+        body > header div > ul li#burger {
+          display: none;
+          width: 30px;
+          height: 25px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          background-image: url("../images/burger_white.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          margin: 12px 10px 0 0; }
+          body > header div > ul li#burger a:hover {
+            background-color: transparent; }
+  @media only screen and (max-width: 1300px) {
+    body > header div ul li {
+      margin: 0 10px; }
+      body > header div ul li a {
+        padding: 5px; } }
+  @media only screen and (max-width: 1023px) {
+    body > header div ul {
+      display: none;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      bottom: 0;
+      max-width: 260px;
+      width: 100%;
+      background-color: #FFFFFF;
+      z-index: 300;
+      padding-top: 70px; }
+      body > header div ul.show {
+        display: block; }
+        body > header div ul.show ul {
+          display: none; }
+      body > header div ul li {
+        display: block;
+        margin: 0;
+        text-align: left;
+        padding-left: 20px; }
+        body > header div ul li:first-of-type {
+          display: none; }
+    body > header #simple_logo {
+      display: block;
+      width: 161px;
+      height: 60px;
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      background-image: url("images/logo_gw_white.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0;
+      z-index: 1000; }
+      body > header #simple_logo a:hover {
+        background-color: transparent; }
+    body > header #burger {
+      display: block;
+      width: 30px;
+      height: 48px;
+      position: absolute;
+      right: 40px;
+      top: 30px;
+      background-image: url("images/burger_white.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0;
+      z-index: 1000; }
+      body > header #burger.open {
+        background-image: url("images/close_blue.png"); }
+      body > header #burger a:hover {
+        background-color: transparent; } }
+  @media only screen and (max-width: 640px) {
+    body > header #simple_logo {
+      top: 20px;
+      left: 4%;
+      width: 80px;
+      height: 30px; }
+    body > header #burger {
+      right: 4%;
+      top: 10px; }
+    body > header div ul {
+      right: 0;
+      max-width: inherit;
+      position: absolute;
+      bottom: inherit;
+      height: auto; }
+      body > header div ul li a {
+        padding-left: 10px; } }
+
+footer {
+  text-align: center; }
+  footer #logo_footer {
+    display: block;
+    width: 160px;
+    height: 61px;
+    background-image: url("images/logo_gw_gray.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 80px auto; }
+
+#content {
+  margin: -20px 20px 0;
+  min-height: 300px; }
+  #content div.platter {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    position: relative;
+    background-color: #E7E9ED; }
+    #content div.platter article.content-page {
+      min-height: 350px;
+      padding: 40px 4%;
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #FFFFFF; }
+      #content div.platter article.content-page h1, #content div.platter article.content-page h2, #content div.platter article.content-page h3, #content div.platter article.content-page h4, #content div.platter article.content-page h5, #content div.platter article.content-page h6, #content div.platter article.content-page p {
+        max-width: 768px; }
+      #content div.platter article.content-page h1 {
+        font-size: 1.6em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        line-height: 2em;
+        padding-bottom: 10px;
+        color: #587FB2; }
+
+.page-template-default #content {
+  margin-top: 120px;
+  display: block;
+  padding: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Abrade-Light", "Abrade-Regular", times, serif; }
+
+h5, h6 {
+  font-family: "ITCGaramondStd-Bd", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif; }
+
+p {
+  font-family: "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+  color: #3E3E3E; }
+
+@media only screen and (max-width: 767px) {
+  body > header {
+    background-color: transparent; }
+  #content {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8px; }
+    #content div.platter {
+      padding: 40px 4%; } }
+
+a.elementor-button {
+  background-color: #587FB2;
+  font-family: "Abrade-Regular", times, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
+body {
+  font-family: "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  color: #3E3E3E; }

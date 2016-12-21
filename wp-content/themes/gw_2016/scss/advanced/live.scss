@@ -1,0 +1,124 @@
+main[data-template="live"] {
+
+
+    section#video_header {
+        background-color: black;
+
+        div.content {
+            max-width: 1230px;
+            width: auto;
+            margin: 0 auto;
+            overflow: hidden;
+
+            article.video {
+                padding-bottom: 56.4%;
+                position: relative;
+                display: block;
+
+                iframe {
+                    position: absolute;
+                    display: block;
+                    height: 100%;
+                }
+            }
+        }
+
+
+
+        @media only screen and (max-height: 800px) {
+            div.content {
+                max-width: 880px;
+            }
+        }
+
+        @media only screen and (max-height: 650px) {
+            div.content {
+                max-width: 540px;
+            }
+        }
+    }
+
+
+    section#title {
+        background-color: $gray_light;
+        div.desc {
+            padding: 50px 0;
+
+
+            h1 {
+                font-size: 2.6em;
+                text-align: center;
+
+            }
+
+            h2 {
+                font-family: $futura-bold;
+                text-align: center;
+                font-size: 1.3em;
+            }
+
+        }
+    }
+
+    section#speakers {
+        section.speaker {
+            max-width: 790px;
+            margin: 0 auto;
+        }
+    }
+
+    section#ask_pray,
+    section#speakers,
+    section#testimonies,
+    section#testimony_fb,
+    section#listOfEvents,
+    section#follow {
+        padding: 80px 0;
+
+        article.content-page {
+
+            h1 {
+                text-align: center;
+                max-width: inherit;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    section#ask_pray {
+        background-color: $gray-light;
+
+        div {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    section#follow {
+        background-color: $gray_light;
+    }
+
+    section#follow {
+        text-align: center;
+    }
+
+    section#testimony_fb {
+
+        article.content-page {
+            text-align: center;
+
+            div {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            a.button {
+                margin-top: 20px;
+            }
+        }
+
+    }
+}

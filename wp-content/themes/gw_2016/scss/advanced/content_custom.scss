@@ -1,0 +1,50 @@
+article.content-page {
+
+    div.cards {
+        display: table;
+        width: 100%;
+
+        div.card {
+            @include card();
+        }
+    }
+
+    div.author {
+        display: block;
+        text-align: left;
+        margin: 10px 0 50px 0;
+        max-width: 790px;
+
+        div.picture {
+            display: inline-block;
+            width: 90px;
+            vertical-align: top;
+            margin-right: 5px;
+
+            img {
+                display: block;
+                width: 80px;
+                height: auto;
+                @include border-radius(100px);
+                @include desaturate();
+            }
+        }
+
+        div.text {
+            display: inline-block;
+            max-width: 200px;
+            padding-top: 23px;
+
+            h2 {
+                font-family: $futura-demi;
+                font-size: 0.9em;
+                margin: 0;
+            }
+
+            p {
+                font-size: 0.8em;
+                font-family: $futura-i;
+            }
+        }
+    }
+}
