@@ -4910,7 +4910,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "gospel-wave.org",
+	"externalServerAddress": "dev.gospel-wave.org",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

@@ -4,7 +4,6 @@ body > header {
     color: $black;
     font-family: $abrade-light;
     text-transform: uppercase;
-    font-size: 20px;
     -webkit-font-smoothing: antialiased;
     display: block;
     position: absolute;
@@ -15,7 +14,7 @@ body > header {
 
     div {
         max-width: 1440px;
-        margin: 20px auto;
+        margin: 10px auto;
         padding: 0 20px;
 
         & > ul {
@@ -93,10 +92,10 @@ body > header {
                 a {
                     color: $blue_dark;
                     text-decoration: none;
-                    font-size: 1.25em;
+                    font-size: 1.1em;
                     display: block;
                     height: 100%;
-                    padding: 7px 15px 0;
+                    padding: 7px 12px 0;
                     line-height: 36px;
                     margin-bottom: 10px;
 
