@@ -122,7 +122,7 @@ body > header {
   background-color: #FFFFFF; }
   body > header div {
     max-width: 1440px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 0 20px; }
     body > header div > ul {
       display: inline-block;
@@ -202,7 +202,7 @@ body > header {
       margin: 0 10px; }
       body > header div ul li a {
         padding: 5px; } }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 5000px) {
     body > header div ul {
       display: none;
       position: fixed;
