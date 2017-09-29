@@ -346,6 +346,48 @@ a.elementor-button {
   text-transform: uppercase;
   letter-spacing: 0.1em; }
 
+.garamond h1, .garamond h2, .garamond h3, .garamond h4, .garamond h5, .garamond h6, .garamond p, .garamond a {
+  font-family: "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-i h1, .garamond-i h2, .garamond-i h3, .garamond-i h4, .garamond-i h5, .garamond-i h6, .garamond-i p, .garamond-i a {
+  font-family: "ITCGaramondStd-BkIta", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-ligth h1, .garamond-ligth h2, .garamond-ligth h3, .garamond-ligth h4, .garamond-ligth h5, .garamond-ligth h6, .garamond-ligth p, .garamond-ligth a {
+  font-family: "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-ligth-i h1, .garamond-ligth-i h2, .garamond-ligth-i h3, .garamond-ligth-i h4, .garamond-ligth-i h5, .garamond-ligth-i h6, .garamond-ligth-i p, .garamond-ligth-i a {
+  font-family: "ITCGaramondStd-LtIta", "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-bold h1, .garamond-bold h2, .garamond-bold h3, .garamond-bold h4, .garamond-bold h5, .garamond-bold h6, .garamond-bold p, .garamond-bold a {
+  font-family: "ITCGaramondStd-Bd", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.garamond-bold-i h1, .garamond-bold-i h2, .garamond-bold-i h3, .garamond-bold-i h4, .garamond-bold-i h5, .garamond-bold-i h6, .garamond-bold-i p, .garamond-bold-i a {
+  font-family: "ITCGaramondStd-BdIta", "ITCGaramondStd-Bd", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif !important; }
+
+.abrade h1, .abrade h2, .abrade h3, .abrade h4, .abrade h5, .abrade h6, .abrade p, .abrade a {
+  font-family: "Abrade-Regular", times, serif !important; }
+
+.abrade-i h1, .abrade-i h2, .abrade-i h3, .abrade-i h4, .abrade-i h5, .abrade-i h6, .abrade-i p, .abrade-i a {
+  font-family: "Abrade-Italic", "Abrade-Regular", times, serif !important; }
+
+.abrade-light h1, .abrade-light h2, .abrade-light h3, .abrade-light h4, .abrade-light h5, .abrade-light h6, .abrade-light p, .abrade-light a {
+  font-family: "Abrade-Light", "Abrade-Regular", times, serif !important; }
+
+.abrade-light-i h1, .abrade-light-i h2, .abrade-light-i h3, .abrade-light-i h4, .abrade-light-i h5, .abrade-light-i h6, .abrade-light-i p, .abrade-light-i a {
+  font-family: "Abrade-LightItalic", "Abrade-Light", "Abrade-Regular", times, serif !important; }
+
+.abrade-bold h1, .abrade-bold h2, .abrade-bold h3, .abrade-bold h4, .abrade-bold h5, .abrade-bold h6, .abrade-bold p, .abrade-bold a {
+  font-family: "Abrade-Bold", "Abrade-Regular", times, serif !important; }
+
+.abrade-bold-i h1, .abrade-bold-i h2, .abrade-bold-i h3, .abrade-bold-i h4, .abrade-bold-i h5, .abrade-bold-i h6, .abrade-bold-i p, .abrade-bold-i a {
+  font-family: "Abrade-BoldItalic", "Abrade-Regular", times, serif !important; }
+
+.abrade-black h1, .abrade-black h2, .abrade-black h3, .abrade-black h4, .abrade-black h5, .abrade-black h6, .abrade-black p, .abrade-black a {
+  font-family: "Abrade-Black", "Abrade-Bold", "Abrade-Regular", times, serif !important; }
+
+.abrade-black-i h1, .abrade-black-i h2, .abrade-black-i h3, .abrade-black-i h4, .abrade-black-i h5, .abrade-black-i h6, .abrade-black-i p, .abrade-black-i a {
+  font-family: "Abrade-BlackItalic", "Abrade-Bold", "Abrade-Regular", times, serif !important; }
+
 body {
   font-family: "ITCGaramondStd-Lt", "ITCGaramondStd-Bk", Arial, Helvetica, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
